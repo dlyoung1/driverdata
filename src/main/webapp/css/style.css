@@ -1,0 +1,319 @@
+/*                            ALL                  */
+nav {
+    display: inline;
+}
+body {
+    width: 350px;
+    padding: 10px;
+    font-family: trebuchet ms, fantasy;
+}
+.submit {
+	background-color: lightblue;
+}
+button {
+	background-color: lightblue;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: left;
+}
+tr {
+    height: 30px;
+}
+tr:nth-child(even) {
+    background-color: lightgray;
+}
+.error {
+	color: red;
+}
+
+/*                             HEADER              */
+#header-links {
+	background-color: whitesmoke;
+}
+#nav1 {
+    float: left;
+    padding-left: 10px;
+}
+#nav2 {
+    float: right;
+    padding-right: 10px;
+}
+
+/*                             FOOTER              */
+footer {
+	text-align: center;
+}
+
+/*                               WELCOME              */
+#welcome {
+	padding: 10px;
+	text-align: center;
+}
+#welcome-form {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#h3 {
+	text-decoration: underline;
+}
+#add-new {
+	padding: 10px;
+}
+#add-new {
+	padding-bottom: 20px;
+}
+
+
+/*                                HOME                 */
+#greeting {
+	text-align: center;
+	padding-top: 20px;
+}
+#date {
+	text-align: center;
+	color: gray;
+}
+#mileage {
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+#expenses {
+	padding-bottom: 5px;
+}
+#user-vehicle {
+	padding: 5px;
+	display: block;
+	margin: auto;
+    width: 200px;
+}
+#home-table {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#summary-links {
+	padding-top: 5px;
+	padding-bottom: 10px;
+	display:flex; 
+	justify-content: space-between;
+	background-color: whitesmoke;
+}
+
+/*                                MILEAGE                 */
+#mileage-message {
+	padding-top: 20px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+.enter-miles {
+	padding-top: 20px;
+	padding-bottom: 10px;
+	font-style: italic;
+}
+
+/*                                EXPENSE                  */
+#expense-header {
+	text-align: center;
+	padding-top: 20px;
+}
+
+/*                                MAINTENANCE SERVICE       */
+#service-header {
+	padding-top: 20px;
+	text-align: center;
+}
+
+/*                                 MAINTENANCE               */
+#maintenance-header {
+	text-align: center;
+	padding-top: 20px;
+}
+#maintenance-table {
+	font-size: 12px;
+	text-decoration: underline;
+}
+#maintenance-item {
+	font-style: italic;
+	padding-top: 10px;
+}
+
+/*                                 MAINTENANCE EXPENSES      */
+#maintenanceExpenses-header {
+	padding-top: 20px;
+	text-align: center;
+}
+
+/*                                  MECHANIC                */
+#add-mechanic-section {
+	padding-top: 20px;
+}
+.mechanic-header {
+	font-style: italic;
+	text-align: center;
+}
+
+/*                                 EXPENSES               */
+#expenses-header {
+	text-align: center;
+	padding-top: 20px;
+}
+#expenses-table {
+	font-size: 12px;
+	text-decoration: underline;
+}
+
+/*                                 	DELETE EXPENSE          */
+#delete-expense-section {
+	padding-top: 20px;
+}
+#delete-expense-header {
+	text-align: center;
+}
+
+
+/*                                  SETTINGS                  */
+#settings-section {
+	padding-top: 20px;
+	text-align: center;
+}
+
+/*                                  SWITCH USER                  */
+#switch-user-section {
+	padding-top: 20px;
+}
+#switch-user-header {
+	text-align: center;
+	font-style: italic;
+	padding-top: 20px;
+}
+#switch-user-submit {
+	padding-top: 10px;
+	text-align: center;
+}
+
+/*                                  SWITCH VEHICLE                  */
+#switch-vehicle-section {
+	padding-top: 20px;
+}
+#switch-vehicle-header {
+	text-align: center;
+	font-style: italic;
+	padding-top: 20px;
+}
+#switch-vehicle-submit {
+	padding-top: 10px;
+	text-align: center;
+}
+
+/*                                  UPDATE USER                  */
+#update-user-section {
+	padding-top: 20px;
+}
+#update-user-header {
+	text-align: center;
+	font-style: italic;
+	padding-top: 20px;
+}
+#update-user-submit {
+	padding-top: 10px;
+	text-align: center;
+}
+
+/*                                  DELETE USER                  */
+#delete-user-section {
+	padding-top: 20px;
+}
+#delete-user-header {
+	text-align: center;
+	font-style: italic;
+	padding-top: 20px;
+}
+
+/*                                  ADD USER                  */
+#add-user-section {
+	padding-top: 20px;
+}
+#add-user-header {
+	text-align: center;
+	font-style: italic;
+	padding-top: 20px;
+}
+
+/*                                  MODIFY VEHICLE                  */
+#modify-vehicle-section {
+	padding-top: 20px;
+}
+#modify-vehicle-header {
+	text-align: center;
+	font-style: italic;
+	padding-top: 20px;
+}
+#modify-vehicle-submit {
+	padding-top: 10px;
+	text-align: center;
+}
+
+/*                                  ADD VEHICLE                  */
+#add-vehicle-section {
+	padding-top: 20px;
+}
+#add-vehicle-header {
+	text-align: center;
+	font-style: italic;
+	padding-top: 20px;
+}
+
+/*                                 DELETE VEHICLE                 */
+#delete-vehicle-section {
+	padding-top: 20px;
+}
+#delete-vehicle-header {
+	text-align: center;
+	font-style: italic;
+	padding-top: 20px;
+}
+
+/*                                 REPORTS                         */
+#report-header {
+	padding-top: 20px;
+}
+
+
+/*                                 FEEDBACK                        */
+#feedback-section {
+	padding-top: 20px;
+}
+
+
+/*                                 FEEDBACK RESULTS                */
+#feedbackresult-section {
+	padding-top: 20px;
+}
+#feedback-button {
+	text-align: center;
+}
+#expert-drivers {
+	text-decoration: underline;
+}
+.name-date {
+	font-style: italic;
+}
+.notes {
+	background-color: lightgray;
+}
+#suspended-license {
+	text-decoration: underline;
+}
+
+/*                                  ABOUT                          */
+#hov {
+	width: 100px;
+}
+#about-section {
+	text-align: center;
+	padding-top: 20px;
+}
+
